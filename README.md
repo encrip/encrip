@@ -14,7 +14,7 @@ A little about me:
 Ask me about anything here
 
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=encrip)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=encrip)](https://github.com/encrip/github-readme-stats)
 
 <!---
 encrip/encrip is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
