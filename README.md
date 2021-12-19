@@ -27,7 +27,7 @@ You can click the Preview link to take a look at your changes.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=encrip&show_icons=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact)](https://github.com/encrip/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&show_icons=true)](https://github.com/encrip/github-readme-stats)
 
 
 
