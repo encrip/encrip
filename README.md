@@ -6,7 +6,7 @@ Software,Mobile App and Web Developer
 
 A little about me:
 
-- 🌱 I’m currently working on SkanTech sollution app
+- 🌱 I’m currently working on JaniKasuwa app
 - 💞️ I’m looking to collaborate on Mobile app Develop AI
 - 📫 How to reach me 09032334313
 
