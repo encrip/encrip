@@ -1,4 +1,4 @@
- ### Hi, I’m Encypted  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+ ### Hi, I’m Encypted  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px">
  
 Software,Mobile App and Web Developer
 
@@ -27,9 +27,9 @@ You can click the Preview link to take a look at your changes.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=encrip&show_icons=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&show_icons=true)](https://github.com/encrip/github-readme-stats)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&show_icons=true)](https://github.com/encrip/github-readme-stats) -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&langs_count=8)](https://github.com/encrip/github-readme-stats)
 
 
 
