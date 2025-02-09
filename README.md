@@ -1,12 +1,12 @@
- ### Hi, I’m Encypted  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px">
+ ### Hi, I’m Encrypted  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px">
  
-Software,Mobile App and Web Developer
+Software, Mobile App, and Web Developer
 
-- Encypted is a Software, Mobile App and Web Developer with 3 years’ experience in website software and mobile app development. I have skills in HTML/CSS, Javascript, React-native PHP, JAVA and XML, and other scripting languages. I am passionate about solving problems and creating new innovations.
+- Encrypted is a Software, Mobile App, and Web Developer with 5 years of experience in website software and mobile app development. I have skills in HTML/CSS, Javascript, React-native PHP, JAVA and XML, and other scripting languages. I am passionate about solving problems and creating innovations.
 
 A little about me:
 
-- 🌱 I’m currently working on JaniKasuwa app
+- 🌱 I’m currently working on atpay wallet app
 - 💞️ I’m looking to collaborate on Mobile app Develop AI
 - 📫 How to reach me 09032334313
 
