@@ -16,13 +16,13 @@ I’m a **Software, Mobile App, and Web Developer** with over **5 years of exper
 
 📊 **GitHub Stats**  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=encrip&show_icons=true&theme=radical)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=encrip&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
 
 ---
 
 📚 **Top Languages**  
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&theme=radical&count_private=true&cache_seconds=86400)  
 
 ---
 
@@ -30,8 +30,3 @@ I’m a **Software, Mobile App, and Web Developer** with over **5 years of exper
 Feel free to connect and discuss tech, collaboration, or just say hi.  
 
 ---
-
-<!-- 
-✨ Special repository notice ✨
-This README.md file appears on your GitHub profile. Click the “Preview” link to see changes.  
--->
