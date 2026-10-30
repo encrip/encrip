@@ -1,5 +1,4 @@
  <h1 align="center">Hi, I'm Encrypted 👋</h1>
-
 <h3 align="center">
 Full-Stack Developer • Cybersecurity Enthusiast • Network Engineer • CEO of atPay
 </h3>
