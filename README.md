@@ -78,12 +78,20 @@ A collection of educational and defensive security tools designed to strengthen 
 
 🔗 **[Explore Encrypted Security Tools](https://github.com/encrip/encrypted-security-tools)**
 
+### ✅ Latest Milestone
+
+Completed my first **TCP Port Scanner** in Python, with interactive IPv4 input, validation, scan progress, readable port statuses, and a results summary.
+
+This project helped me practise Python sockets, TCP connections, input validation, timeout handling, and terminal interface design.
+
+**Next project: Password Strength Analyzer** — continuing my hands-on cybersecurity learning journey.
+
 ### 🧰 Cybersecurity Project Roadmap
 
 | # | Project | Progress |
 |---|---|---|
-| 01 | TCP Port Scanner | 🚧 In Development |
-| 02 | Password Strength Analyzer | 📌 Planned |
+| 01 | TCP Port Scanner | ✅ Completed |
+| 02 | Password Strength Analyzer | 🎯 Up Next |
 | 03 | IP & Subnet Calculator | 📌 Planned |
 | 04 | DNS Lookup & Analyzer | 📌 Planned |
 | 05 | HTTP Security Header Checker | 📌 Planned |
