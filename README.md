@@ -84,15 +84,21 @@ Completed my first **TCP Port Scanner** in Python, with interactive IPv4 input, 
 
 This project helped me practise Python sockets, TCP connections, input validation, timeout handling, and terminal interface design.
 
-**Next project: Password Strength Analyzer** — continuing my hands-on cybersecurity learning journey.
+Built the initial **Password Strength Analyzer** in Python — an offline terminal tool with hidden password input, length and common-pattern checks, educational strength scores, and practical improvement suggestions.
+
+The initial version includes **9 passing unit tests** covering common substitutions, repetition, sequences, Unicode input, and edge cases. It does not save or transmit passwords, and its score is a learning aid rather than a guarantee of security.
+
+This project explores Python string handling, regular expressions, dataclasses, secure terminal input, and unit testing.
+
+**Next project: IP & Subnet Calculator** — continuing my hands-on cybersecurity learning journey.
 
 ### 🧰 Cybersecurity Project Roadmap
 
 | # | Project | Progress |
 |---|---|---|
 | 01 | TCP Port Scanner | ✅ Completed |
-| 02 | Password Strength Analyzer | 🎯 Up Next |
-| 03 | IP & Subnet Calculator | 📌 Planned |
+| 02 | Password Strength Analyzer | ✅ Initial version built |
+| 03 | IP & Subnet Calculator | 🎯 Up Next |
 | 04 | DNS Lookup & Analyzer | 📌 Planned |
 | 05 | HTTP Security Header Checker | 📌 Planned |
 | 06 | Network Discovery Tool | 📌 Planned |
