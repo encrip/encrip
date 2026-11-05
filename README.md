@@ -78,7 +78,28 @@ A collection of educational and defensive security tools designed to strengthen 
 
 🔗 **[Explore Encrypted Security Tools](https://github.com/encrip/encrypted-security-tools)**
 
-### ✅ Latest Milestone
+### ✅ Latest Milestone — 5 November 2026
+
+Built two Python security learning tools, focusing on useful reports, controlled testing, and honest interpretation of results.
+
+**Encrypted Web Auditor Pro**
+- Added single-page checks, bounded directory crawling, and optional path lists.
+- Reviewed security headers, cookie attributes, login-form configuration, and possible directory listings.
+- Generated HTML, JSON, and text reports with severity levels, evidence, and suggested fixes.
+- Added redirect scope checks, request limits, report redaction, and clear indicators for incomplete scans.
+- Passed **8 local automated tests** covering scope boundaries, redirects, request budgets, response-size limits, and report handling.
+
+**Localhost Login Lab**
+- Built a Python standard-library demo for a dedicated local test account, using synthetic password candidates.
+- Restricted requests to loopback, spaced out attempts, and stopped on rate-limit, lockout, challenge, or ambiguous response signals.
+- Used explicit response markers to flag possible login success for manual verification; reports omit passwords and response bodies.
+- Passed **6 unit tests** covering destination restrictions, result classification, stop conditions, and demo candidates.
+
+**What I learned:** redirect scope affects scan coverage; missing headers are configuration findings rather than proof of compromise; and an absent error message does not prove a successful login.
+
+These are initial educational tools. The web auditor does not test authenticated access or prove an application is secure. The login lab uses response-text heuristics and does not bypass CSRF, CAPTCHA, MFA, or lockouts.
+
+### 🏁 Earlier Milestones
 
 Completed my first **TCP Port Scanner** in Python, with interactive IPv4 input, validation, scan progress, readable port statuses, and a results summary.
 
@@ -100,11 +121,11 @@ This project explores Python string handling, regular expressions, dataclasses, 
 | 02 | Password Strength Analyzer | ✅ Initial version built |
 | 03 | IP & Subnet Calculator | 🎯 Up Next |
 | 04 | DNS Lookup & Analyzer | 📌 Planned |
-| 05 | HTTP Security Header Checker | 📌 Planned |
+| 05 | HTTP Security Header Checker | ✅ Included in Web Auditor Pro |
 | 06 | Network Discovery Tool | 📌 Planned |
 | 07 | Packet Analyzer | 📌 Planned |
 | 08 | SSL/TLS Certificate Checker | 📌 Planned |
-| 09 | Web Security Assessment Tool | 📌 Planned |
+| 09 | Web Security Assessment Tool | ✅ Initial configuration auditor built |
 | 10 | File Integrity Monitor | 📌 Planned |
 | 11 | Firewall Log Analyzer | 📌 Planned |
 | 12 | Security Event Detection System | 📌 Planned |
