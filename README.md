@@ -1,304 +1,46 @@
- <h1 align="center">Hi, I'm Encrypted 👋</h1>
-<h3 align="center">
-Full-Stack Developer • Cybersecurity Enthusiast • Network Engineer • CEO of atPay
-</h3>
+# Hi, I'm Encrypted 👋
 
-<p align="center">
-  Building secure digital products, exploring cybersecurity, and developing tools that solve real-world problems.
-</p>
+I'm Saifullahi Khamisu, a full-stack developer and CEO of [atPay](https://atpay.ng). I build Flutter apps and PHP APIs for everyday payments in Nigeria. My networking and cloud computing background shapes how I approach security, from checking a TCP connection to tracing a wallet entry back to the payment that created it.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=encrip&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/encrip?label=Followers&style=flat&color=blue" alt="GitHub Followers" />
-</p>
+[Android apps](https://play.google.com/store/apps/dev?id=8907913731562967248&hl=en) · [Security tools](https://github.com/encrip/encrypted-security-tools) · [All repositories](https://github.com/encrip?tab=repositories)
 
-<p align="center">
-  <a href="https://atpay.ng">
-    <img src="https://img.shields.io/badge/Explore_atPay-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="atPay" />
-  </a>
-  <a href="https://github.com/encrip/encrypted-security-tools">
-    <img src="https://img.shields.io/badge/Security_Tools-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="Security Tools" />
-  </a>
-  <a href="https://play.google.com/store/apps/dev?id=8907913731562967248&hl=en">
-    <img src="https://img.shields.io/badge/Android_Apps-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white" alt="Android Apps" />
-  </a>
-  <a href="https://github.com/encrip?tab=repositories">
-    <img src="https://img.shields.io/badge/My_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
-  </a>
-</p>
+## What I build
 
----
-
-## 👨‍💻 About Me
-
-I'm **Encrypted**, a full-stack developer, networking and cloud computing enthusiast, and CEO of **[atPay](https://atpay.ng)**.
-
-I specialize in developing web and mobile applications, building backend systems, integrating APIs, and exploring how connected systems can be made more reliable and secure.
-
-My current focus is expanding my knowledge of **cybersecurity, ethical hacking, network security, Python automation, and digital forensics**.
-
-I believe the best way to understand security is to study how systems work, develop practical tools, test them responsibly, and continuously improve.
-
-- 🔭 **Currently working on:** atPay, security tools, and software development projects.
-- 🛡️ **Cybersecurity focus:** Network security, web application security, vulnerability assessment, and digital forensics.
-- 🐍 **Currently learning:** Python for cybersecurity, security automation, and penetration testing methodologies.
-- 💻 **Development experience:** PHP, Flutter, JavaScript, Java, REST APIs, and databases.
-- 🌐 **Technical background:** Networking, cloud computing, and connected systems.
-- 🤝 **Open to collaboration:** Cybersecurity learning projects, fintech, Flutter, and open-source development.
-- 🎯 **Long-term goal:** Become a skilled cybersecurity engineer and digital forensics professional.
-
----
-
-## 🛡️ My Cybersecurity Journey
-
-I'm actively developing my skills in cybersecurity by building practical tools using Python.
-
-My learning philosophy:
-
-**Learn → Build → Test → Analyze → Improve → Document**
-
-### 🔐 Security Areas I'm Exploring
-
-| Security Domain | Learning Focus |
+| Project | What it does |
 |---|---|
-| 🌐 Network Security | TCP/IP, ports, network protocols, packet analysis |
-| 🕸️ Web Security | OWASP Top 10, authentication, API security |
-| 🐍 Python Security Automation | Security scripts, sockets, monitoring tools |
-| 🔍 Vulnerability Assessment | Identifying and documenting security weaknesses |
-| 🖥️ System Security | Linux, Windows, permissions, and system hardening |
-| 📁 Digital Forensics | File analysis, hashing, logs, evidence handling |
-| 🔎 Threat Analysis | Indicators of compromise and security event investigation |
-| ☁️ Cloud Security | Infrastructure security and cloud fundamentals |
+| [atPay](https://atpay.ng) | A wallet for buying data and airtime and paying electricity and TV bills. My work covers the mobile app, provider integrations and customer support tools. |
+| [Encrypted Security Tools](https://github.com/encrip/encrypted-security-tools) | My Python security projects include a TCP port scanner and an offline password strength analyzer. |
+| Encrypted Web Auditor Pro | Checks headers, cookies and login forms within a defined scope. Its reports flag incomplete scans so readers can see what was actually checked. |
+| Localhost Login Lab | Uses a local test account and synthetic passwords to study login responses. It stops on lockouts, rate limits or ambiguous results. |
 
-### 🚀 Encrypted Security Tools
+## Latest work · 6 November 2026
 
-**My Python cybersecurity development project**
+I reviewed a PHP/MySQL application that handles identity requests and wallet payments. I traced who could approve a request, what proved a payment came from the provider, and what happened if two requests reached the same balance at once. I documented the findings, their potential impact and staging checks for each fix.
 
-A collection of educational and defensive security tools designed to strengthen practical security engineering skills.
-
-🔗 **[Explore Encrypted Security Tools](https://github.com/encrip/encrypted-security-tools)**
-
-### ✅ Latest Milestone — 5 November 2026
-
-Built two Python security learning tools, focusing on useful reports, controlled testing, and honest interpretation of results.
-
-**Encrypted Web Auditor Pro**
-- Added single-page checks, bounded directory crawling, and optional path lists.
-- Reviewed security headers, cookie attributes, login-form configuration, and possible directory listings.
-- Generated HTML, JSON, and text reports with severity levels, evidence, and suggested fixes.
-- Added redirect scope checks, request limits, report redaction, and clear indicators for incomplete scans.
-- Passed **8 local automated tests** covering scope boundaries, redirects, request budgets, response-size limits, and report handling.
-
-**Localhost Login Lab**
-- Built a Python standard-library demo for a dedicated local test account, using synthetic password candidates.
-- Restricted requests to loopback, spaced out attempts, and stopped on rate-limit, lockout, challenge, or ambiguous response signals.
-- Used explicit response markers to flag possible login success for manual verification; reports omit passwords and response bodies.
-- Passed **6 unit tests** covering destination restrictions, result classification, stop conditions, and demo candidates.
-
-**What I learned:** redirect scope affects scan coverage; missing headers are configuration findings rather than proof of compromise; and an absent error message does not prove a successful login.
-
-These are initial educational tools. The web auditor does not test authenticated access or prove an application is secure. The login lab uses response-text heuristics and does not bypass CSRF, CAPTCHA, MFA, or lockouts.
-
-### 🏁 Earlier Milestones
-
-Completed my first **TCP Port Scanner** in Python, with interactive IPv4 input, validation, scan progress, readable port statuses, and a results summary.
-
-This project helped me practise Python sockets, TCP connections, input validation, timeout handling, and terminal interface design.
-
-Built the initial **Password Strength Analyzer** in Python — an offline terminal tool with hidden password input, length and common-pattern checks, educational strength scores, and practical improvement suggestions.
-
-The initial version includes **9 passing unit tests** covering common substitutions, repetition, sequences, Unicode input, and edge cases. It does not save or transmit passwords, and its score is a learning aid rather than a guarantee of security.
-
-This project explores Python string handling, regular expressions, dataclasses, secure terminal input, and unit testing.
-
-**Next project: IP & Subnet Calculator** — continuing my hands-on cybersecurity learning journey.
-
-### 🧰 Cybersecurity Project Roadmap
-
-| # | Project | Progress |
-|---|---|---|
-| 01 | TCP Port Scanner | ✅ Completed |
-| 02 | Password Strength Analyzer | ✅ Initial version built |
-| 03 | IP & Subnet Calculator | 🎯 Up Next |
-| 04 | DNS Lookup & Analyzer | 📌 Planned |
-| 05 | HTTP Security Header Checker | ✅ Included in Web Auditor Pro |
-| 06 | Network Discovery Tool | 📌 Planned |
-| 07 | Packet Analyzer | 📌 Planned |
-| 08 | SSL/TLS Certificate Checker | 📌 Planned |
-| 09 | Web Security Assessment Tool | ✅ Initial configuration auditor built |
-| 10 | File Integrity Monitor | 📌 Planned |
-| 11 | Firewall Log Analyzer | 📌 Planned |
-| 12 | Security Event Detection System | 📌 Planned |
-| 13 | Phishing URL Analyzer | 📌 Planned |
-| 14 | Digital Forensics Toolkit | 📌 Planned |
-| 15 | Encrypted Security Suite | 🎯 Long-Term Goal |
-
-All security testing projects are intended for controlled labs, personally owned systems, and explicitly authorized assessments.
-
----
-
-## 🚀 What I Build
-
-| Focus | My Work |
-|---|---|
-| 💳 Fintech Products | Developing atPay and integrating financial services through APIs |
-| 📱 Mobile Applications | Flutter applications, Android development, and API integration |
-| 🌐 Web Applications | Backend services, administrative dashboards, and responsive interfaces |
-| 🤖 AI Integrations | AI-powered customer assistance and automation |
-| 🛡️ Cybersecurity Tools | Python utilities for network inspection, security checks, and monitoring |
-| ☁️ Networking & Cloud | Networking concepts, connected infrastructure, and cloud systems |
-| 🔌 API Development | REST APIs, authentication, third-party integrations, and backend systems |
-
-### ⭐ Featured Projects
-
-| Project | Description | Link |
-|---|---|---|
-| **atPay** | Fintech platform for everyday digital payment services | [Website](https://atpay.ng) |
-| **Encrypted Security Tools** | Python cybersecurity tools and practical security learning projects | [GitHub](https://github.com/encrip/encrypted-security-tools) |
-| **Android Applications** | Published Android apps and mobile development work | [Google Play](https://play.google.com/store/apps/dev?id=8907913731562967248&hl=en) |
-| **Open-Source Projects** | Development experiments, tools, and learning projects | [Repositories](https://github.com/encrip?tab=repositories) |
-
----
-
-## 🛠️ Technology Toolkit
-
-### 💻 Programming Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
-
-### 📱 Web & Mobile Development
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### 🔐 Cybersecurity & Networking Learning Toolkit
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-
-### 🗄️ Databases & Development Tools
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+One lesson I’m taking back to my own work: test the **database result** as well as the HTTP response. If a provider delivers the same payment twice, both requests can receive an acknowledgement, but the ledger should contain exactly one credit.
 
 <details>
-<summary><strong>Additional Technologies I'm Exploring</strong></summary>
+<summary>Earlier milestones and learning roadmap</summary>
 
-| Category | Technologies |
+| Milestone | Evidence from the project |
 |---|---|
-| Backend | Node.js, Django |
-| Mobile | Kotlin |
-| Databases | PostgreSQL |
-| Infrastructure | Docker, Google Cloud |
-| Security | Scapy, Python sockets, network protocols |
-| Design | Adobe Illustrator, Photoshop, Adobe XD |
+| TCP Port Scanner | Interactive IPv4 input, connection timeouts and a summary of port states. |
+| Password Strength Analyzer | Hidden input and local checks for common patterns. The initial version passed 9 unit tests. |
+| Web Auditor Pro · 5 November | Passed 8 local tests covering scope, redirects, request limits and reporting. |
+| Localhost Login Lab · 5 November | Passed 6 unit tests covering destination restrictions, response classification, stop conditions and demo candidates. |
+
+**Next build:** IP & Subnet Calculator. After that I plan to work on DNS lookup, network discovery, packet analysis and TLS certificate inspection. My longer-term interests are log analysis, file integrity monitoring and digital forensics.
 
 </details>
 
----
+## Tools I work with
 
-## 📚 My Cybersecurity Learning Roadmap
+**Mobile and web:** Flutter, Dart, PHP, JavaScript, Java and REST APIs.  
+**Data and infrastructure:** MySQL, SQLite, Firebase, Linux and Git.  
+**Security learning:** Python sockets, Wireshark, Nmap, Burp Suite and OWASP guidance. I use controlled labs and systems I have permission to assess.
 
-- [ ] **Phase 1:** Python for security automation
-- [ ] **Phase 2:** Linux and networking fundamentals
-- [ ] **Phase 3:** Network security and packet analysis
-- [ ] **Phase 4:** Web application and API security
-- [ ] **Phase 5:** Security scripting and monitoring
-- [ ] **Phase 6:** Digital forensics fundamentals
-- [ ] **Phase 7:** Vulnerability assessment and reporting
-- [ ] **Phase 8:** Develop the complete Encrypted Security Suite
+## Connect
 
-### 📖 Learning Resources
+I welcome collaboration on fintech, Flutter, Python security tools and networking projects.
 
-- [OWASP](https://owasp.org/)
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- [TryHackMe](https://tryhackme.com/)
-- [Hack The Box](https://www.hackthebox.com/)
-- [OverTheWire](https://overthewire.org/wargames/)
-- [Python Documentation](https://docs.python.org/3/)
-
----
-
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=encrip&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Statistics" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=encrip&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=encrip&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## ⚡ Development Philosophy
-
-> **Understand the system. Learn how it works. Build something useful. Secure it. Keep improving.**
-
-I believe software engineering and cybersecurity complement each other.
-
-Understanding how applications are developed helps security professionals identify weaknesses, while understanding cybersecurity helps developers build more resilient systems.
-
-My goal is to continue growing in both fields.
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in collaboration around **cybersecurity, Python automation, network security, fintech, web development, and mobile applications**.
-
-<p>
-  <a href="https://linkedin.com/in/saifullah-khamisu-6a3604174/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/atpay_wallet">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://instagram.com/atpay_app/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://www.tiktok.com/@atpay_wallet">
-    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
-  </a>
-  <a href="https://www.youtube.com/c/atpaywallet">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-</p>
-
-[Facebook](https://fb.com/atpay/100094027181873/) · [Stack Overflow](https://stackoverflow.com/users/encrypted-ng) · [atPay](https://atpay.ng)
-
----
-
-<p align="center">
-  <strong>🛡️ Learn. Build. Test. Secure.</strong>
-</p>
-
-<p align="center">
-  <strong>Always Building • Always Learning • Always Improving</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/encrip?tab=repositories">🚀 Explore My Projects</a>
-</p>
+[LinkedIn](https://linkedin.com/in/saifullah-khamisu-6a3604174/) · [X](https://twitter.com/atpay_wallet) · [Instagram](https://instagram.com/atpay_app/) · [TikTok](https://www.tiktok.com/@atpay_wallet) · [YouTube](https://www.youtube.com/c/atpaywallet) · [Facebook](https://fb.com/atpay/100094027181873/) · [Stack Overflow](https://stackoverflow.com/users/encrypted-ng)
